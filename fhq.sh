@@ -26,7 +26,7 @@ while [[ ! "${faill}" =~ ^[1-3]$ ]]
 		echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" faill
 	done
 if [[ "${faill}" == "1" ]]; then
-    wget -O install.sh https://btpanel.net/btwaf_rule/test/btwaf/install.sh && chmod 755 install.sh && bash install.sh install
+    wget -O install.sh https://raw.githubusercontent.com/feinubin/bt/master/install.sh && chmod 755 install.sh && bash install.sh install
 	rm -rf install.sh
     /etc/init.d/bt restart
     main
