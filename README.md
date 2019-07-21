@@ -2,4 +2,7 @@
 
 curl https://raw.githubusercontent.com/feinubin/bt/master/update6.sh|bash
 
+2、Nginx 防火墙必须通过SSH命令行，按引导输入安装：
+wget https://github.com/feinubin/bt/raw/master/fhq.sh && bash fhq.sh
+
 结束：该版本 防火墙 更新较慢 停留当前版本！无需面板安装 防火墙 直接使用脚本安装防火墙（实际降级处理！）
