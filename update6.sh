@@ -17,7 +17,7 @@ fi
 . $public_file
 
 download_Url=$NODE_URL
-btpanel=https://github.com/feinubin/bt
+btpanel=https://raw.githubusercontent.com/feinubin/bt
 setup_path=/www
 version=$(curl -Ss https://www.bt.cn/api/panel/get_version)
 if [ "$version" = '' ];then
