@@ -1,4 +1,4 @@
-1、如果 你是免费的 6.x 宝塔面板 可以使用脚本 升到最新的开心版 6.9.8 面板，操作方法：在SSH命令行执行：
+1、如果 你是免费的 6.x 宝塔面板 可以使用脚本 升到最新的 6.9.8 面板，操作方法：在SSH命令行执行：
 
 curl https://raw.githubusercontent.com/feinubin/bt/master/update6.sh|bash
 
